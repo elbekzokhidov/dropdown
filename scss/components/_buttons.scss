@@ -1,0 +1,29 @@
+.black-btn {
+  padding: 1.5rem 2.8rem 1.3rem 3.1rem;
+  background-color: $black-two-color;
+  color: $white-two-color;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 2.8rem;
+  letter-spacing: -0.25px;
+  border-radius: 15px;
+  &:active {
+    background-color: $white-two-color;
+    color: $black-two-color;
+    border: 1px solid $black-two-color;
+  }
+}
+.white-btn {
+  padding: 1.3rem 2.2rem 1.3rem 2.3rem;
+  background-color: $white-two-color;
+  color: $silver-color;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6rem;
+  border-radius: 14px;
+  border: 1.5px solid $silver-color;
+  &:active {
+    color: $black-two-color;
+    border-color: $black-two-color;
+  }
+}
